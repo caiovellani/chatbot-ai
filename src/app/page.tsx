@@ -20,18 +20,32 @@ export default function Home() {
             Using Vercel SDK to create a chat bot.
           </CardDescription>
         </CardHeader>
-        <CardContent className="space-y-3">
-          <div>
+        <CardContent className="space-y-4">
+          <div className="flex gap-3 text-slate-600 text-sm">
             <Avatar>
               <AvatarFallback>CV</AvatarFallback>
               <AvatarImage src="https://github.com/caiovellani.png" />
             </Avatar>
+            <p className="leading-relaxed">
+              <span className="block font-bold text-slate-700">Humano:</span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+              officia optio dolore asperiores fugit, harum esse hic velit natus
+              enim architecto placeat atque nam repudiandae in repellendus
+              mollitia temporibus? Rem.
+            </p>
           </div>
-          <div>
+          <div className="flex gap-3 text-slate-600 text-sm">
             <Avatar>
               <AvatarFallback>RS</AvatarFallback>
               <AvatarImage src="https://github.com/rocketseat.png" />
             </Avatar>
+            <p className="leading-relaxed">
+              <span className="block font-bold text-slate-700">AI:</span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+              officia optio dolore asperiores fugit, harum esse hic velit natus
+              enim architecto placeat atque nam repudiandae in repellendus
+              mollitia temporibus? Rem.
+            </p>
           </div>
         </CardContent>
         <CardFooter className="space-y-2">
